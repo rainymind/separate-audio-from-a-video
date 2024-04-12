@@ -1,0 +1,14 @@
+% Specify the path to your video file
+videoFile = 'path_to_your_video_file.mp4';
+
+% Read the video
+videoReader = VideoReader(videoFile);
+
+% Extract the video's sampling frequency
+audioSampleRate = videoReader.SampleRate;
+
+% Extract audio from the video
+audioData = audioFromVideo(videoFile);
+
+% Save the audio as a WAV file
+audiowrite('output_audio.wav', audioData, audioSampleRate);
