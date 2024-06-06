@@ -1,7 +1,7 @@
-% Specify the path to your video file
+% Specify the path to your video file.
 videoFile = 'path_to_your_video_file.mp4';
 
-% Read the video
+% Read the video.
 videoReader = VideoReader(videoFile);
 
 % Extract the video's sampling frequency
