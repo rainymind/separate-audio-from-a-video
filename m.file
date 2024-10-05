@@ -1,4 +1,5 @@
-% Specify the path to your video file.4800000000000000000000
+% 4800000000000000000000
+% Specify the path to your video file.
 videoFile = 'path_to_your_video_file.mp4';
 
 % Read the video.
